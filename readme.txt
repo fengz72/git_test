@@ -1,3 +1,5 @@
 Git is a distributed version control system.
 Git is free software distributed under the GPL.
-git reset --hard HEAD^
+git reset --hard HEAD^ //回退
+git log //查看提交历史
+git reflog //查看历史指令
