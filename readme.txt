@@ -1,7 +1,11 @@
 Git is a distributed version control system.
 Git is free software distributed under the GPL.
 Git tracks changes of files.
-Creating a new branch is quick & simple.
+<<<<<<< HEAD
+Creating a new branch is quick AND simple.
+=======
+Creating a new branch is quick AND simple.
+>>>>>>> feature1
 git reset --hard HEAD^ //回退
 git log //查看提交历史
 git reflog //查看历史指令
